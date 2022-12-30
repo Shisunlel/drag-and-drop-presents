@@ -1,10 +1,12 @@
 {
   "name": "vite-js",
   "version": "0.0.0",
+  "homepage": "https://shisunlel.github.io/drag-and-drop-presents/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@formkit/auto-animate": "*",
